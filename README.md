@@ -1,6 +1,7 @@
 <h1 align="center"> Laravel Sql Logger </h1>
 
-<p align="center">:pencil: This package allows you to log SQL queries (and slow SQL queries) to log file in Laravel/Lumen framework.</p>
+<p align="center">:pencil: This package allows you to log SQL queries (and slow SQL queries) to log file in Laravel/Lumen framework.
+Inspiration form <a href="https://github.com/mnabialek/laravel-sql-logger">mnabialek/laravel-sql-logger</a></p>
 
 ## Installation
 

@@ -53,18 +53,24 @@ For Lumen you should skip this step.
 ```
 # Whether all SQL queries should be logged
 SQL_LOG_QUERIES=true 
+
 # Whether slow SQL queries should be logged (you can log all queries and
 # also slow queries in separate file or you might to want log only slow queries)
 SQL_LOG_SLOW_QUERIES=true
+
 # Time of query (in milliseconds) when this query is considered as slow
 SQL_SLOW_QUERIES_MIN_EXEC_TIME=100
+
 #Whether slow SQL queries should be logged (you can log all queries and
 #also slow queries in separate file or you might to want log only slow queries)
 SQL_LOG_OVERRIDE=false
+
 # Directory where log files will be saved
 SQL_LOG_DIRECTORY=logs/sql
+
 # Whether execution time in log file should be displayed in seconds(by default it's in milliseconds)
 SQL_CONVERT_TIME_TO_SECONDS=false
+
 # Whether artisan queries should be logged to separate files
 SQL_LOG_SEPARATE_ARTISAN=false
 ```

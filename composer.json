@@ -1,0 +1,34 @@
+{
+  "name": "lingxi/laravel-sql-logger",
+  "description": "A tool to log all queries for laravel/lumen application.",
+  "type": "library",
+  "keywords": [
+    "laravel-sql-logger",
+    "query-logger",
+    "laravel-query-logger",
+    "lumen-query-logger"
+  ],
+  "authors": [
+    {
+      "name": "lingxi",
+      "email": "contact@feyman.me",
+      "homepage": "https://www.lingxi360.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lingxi\\LaravelSqlLogger\\": "src/"
+    }
+  },
+    "extra": {
+    "laravel": {
+      "providers": [
+        "Lingxi\\LaravelSqlLogger\\Providers\\ServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT"
+}
